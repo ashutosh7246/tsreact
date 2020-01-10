@@ -6,7 +6,7 @@ import React, {
 } from "react";
 // import isOnline from 'is-online';
 
-class Base extends Component {
+class Base extends React.Component {
 
   public props: any;
 

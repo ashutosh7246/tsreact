@@ -15,7 +15,7 @@ import ReactGA from 'react-ga';
 // const appTokenKey = "appToken";
 // social auth //
 
-export default class ForgotPassword extends Component {
+export default class ForgotPassword extends React.Component {
 
   public props: any;
   public busy: any;

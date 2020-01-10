@@ -5,7 +5,7 @@ import Loader from '../comman/loader/loader';
 import Message from '../comman/message/message';
 // import ErrorTag from '../errorTag/errorTag';
 
-export default class OTPView extends Component {
+export default class OTPView extends React.Component {
 
     public props: any;
     

@@ -6,7 +6,7 @@ import Overlay from '../comman/overlay/overlay';
 import Footer from '../comman/footer/footer';
 import './homeStyle.css';
 
-export default class HomeView extends Component {
+export default class HomeView extends React.Component {
     constructor(props) {
         super(props);
     }

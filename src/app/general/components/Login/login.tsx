@@ -15,7 +15,7 @@ const firebaseAuthKey = "firebaseAuthInProgress";
 // const appTokenKey = "appToken";
 // social auth //
 
-export default class Login extends Component {
+export default class Login extends React.Component {
 
   public props: any;
   public busy: any;

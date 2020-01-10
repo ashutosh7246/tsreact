@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './loaderStyle.css';
 
-export default class Loader extends Component {
+export default class Loader extends React.Component {
 
     public props: any;
     

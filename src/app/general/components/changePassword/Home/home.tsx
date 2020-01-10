@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import HomeView from './homeView';
 import ReactGA from 'react-ga';
 
-export default class Home extends Component {
+export default class Home extends React.Component {
 
   public props: any;
 

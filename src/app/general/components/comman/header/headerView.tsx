@@ -9,7 +9,7 @@ const authGuard = () => {
     return res;
 }
 
-export default class HeaderView extends Component {
+export default class HeaderView extends React.Component {
 
     public props: any;
 

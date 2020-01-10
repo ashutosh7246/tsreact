@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HeaderView from './headerView';
 
-export default class Header extends Component {
+export default class Header extends React.Component {
 
   public props: any;
 

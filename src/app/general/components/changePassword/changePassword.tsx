@@ -4,7 +4,7 @@ import { LocalStorageService } from "../../services/localStorageService";
 import ChangePasswordView from './changePasswordView';
 import ReactGA from 'react-ga';
 
-export default class ChangePassword extends Component {
+export default class ChangePassword extends React.Component {
 
   public props: any;
   public busy: any;

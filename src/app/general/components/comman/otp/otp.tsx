@@ -4,7 +4,7 @@ import { LocalStorageService } from "../../../services/localStorageService";
 import OTPView from './otpView';
 import ReactGA from 'react-ga';
 
-export default class OTP extends Component {
+export default class OTP extends React.Component {
 
   public props: any;
   public busy: any;

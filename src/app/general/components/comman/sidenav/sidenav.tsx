@@ -3,7 +3,7 @@ import SideNavView from './sideNavView';
 import { LocalStorageService } from "../../../services/localStorageService";
 import { SideNavService } from './sidenavService';
 
-export default class SideNav extends Component {
+export default class SideNav extends React.Component {
 
   public props: any;
 

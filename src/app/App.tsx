@@ -30,7 +30,7 @@ import React, { Component } from 'react';
 import Routing from './general/components/comman/route';
 import './App.css';
 
-export default class App extends Component {
+export default class App extends React.Component {
 
   public props: any;
 

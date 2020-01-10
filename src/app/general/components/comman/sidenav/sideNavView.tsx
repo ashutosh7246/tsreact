@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-ro
 import Message from '../message/message';
 import Loader from '../loader/loader';
 
-export default class SideNavView extends Component {
+export default class SideNavView extends React.Component {
 
     public props: any;
 

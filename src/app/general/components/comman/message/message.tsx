@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './messageStyle.css';
 
-export default class Message extends Component {
+export default class Message extends React.Component {
 
     public props: any;
 

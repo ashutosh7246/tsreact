@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './noConnectionStyle.css';
 
-export default class NoConnection extends Component {
+export default class NoConnection extends React.Component {
 
     public props: any;
 

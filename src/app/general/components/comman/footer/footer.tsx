@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './footerStyle.css';
 
-export default class Footer extends Component {
+export default class Footer extends React.Component {
 
     public props: any;
 

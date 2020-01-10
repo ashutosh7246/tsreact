@@ -7,7 +7,7 @@ import OTPView from './otpView';
 // import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 import ReactGA from 'react-ga';
 
-export default class OTP extends Component {
+export default class OTP extends React.Component {
 
   public props: any;
   public busy: any;

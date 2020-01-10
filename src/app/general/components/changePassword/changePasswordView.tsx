@@ -5,7 +5,7 @@ import Loader from '../comman/loader/loader';
 import Message from '../comman/message/message';
 import ErrorTag from '../comman/errorTag/errorTag';
 
-export default class ChangePasswordView extends Component {
+export default class ChangePasswordView extends React.Component {
 
     public props: any;
 
