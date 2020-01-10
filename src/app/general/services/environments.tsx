@@ -1,6 +1,6 @@
 export const Environment = {
-    // SERVER: 'http://localhost:4000/',
-    SERVER: 'http://13.126.214.206:4000/',
+    SERVER: 'http://localhost:4000/',
+    // SERVER: 'http://13.126.214.206:4000/',
     apiUrl: 'api/v1/',
     RESTURL: {
         myprofile: 'myprofile/',
