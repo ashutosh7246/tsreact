@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../Home/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './errorTagStyle.css';
 
 export default class ErrorTag extends Component {

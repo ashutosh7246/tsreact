@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../Home/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './loginStyle.css';
 import Loader from '../comman/loader/loader';
 import Message from '../comman/message/message';
@@ -68,13 +68,13 @@ export default class LoginView extends Component {
                     </div>
                         <div className='googleLoginBt' onClick={this.props.googleLogin.bind(this)}>
                             <div className='googleLoginBtImg'>
-                                <img src={require("../../assets/g-normal.png")} />
+                                <img src={require("../../../../assets/g-normal.png")} />
                             </div>
                             <div className='googleLoginBtText'>Sign in with Google</div>
                         </div>
                         <div className='googleLoginBt' onClick={this.props.facebookLogin.bind(this)}>
                             <div className='googleLoginBtImg'>
-                                <img src={require("../../assets/f-normal.png")} />
+                                <img src={require("../../../../assets/f-normal.png")} />
                             </div>
                             <div className='googleLoginBtText'>Sign in with Facebook</div>
                         </div>

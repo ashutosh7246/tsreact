@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../Home/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './otpStyle.css';
 import Loader from '../../comman/loader/loader';
 import Message from '../../comman/message/message';

@@ -3,7 +3,7 @@ import { LoginService } from './loginService';
 import { LocalStorageService } from "../../services/localStorageService";
 import LoginView from './loginView';
 import { validator } from '../../services/validator';
-import validatejs from 'validate';
+import validatejs from 'validate.js';
 // import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 import ReactGA from 'react-ga';
 

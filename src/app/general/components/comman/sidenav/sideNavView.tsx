@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../Home/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './sideNavStyle.css';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 import Message from '../message/message';
